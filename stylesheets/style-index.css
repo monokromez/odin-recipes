@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+
+}
+
+html {
+    background-color: #fff1c2;
+}
+
+h1 {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: #125f35;
+    color: goldenrod;
+    width: 75%;
+    padding: 10px 0px;
+    border-radius: 25px;
+    font-family: Copperplate Gothic;
+    font-weight: 500;
+    font-size: 50px;
+    border-bottom: rgb(4, 66, 25) 7px solid;
+    border-right: rgb(4, 66, 25) 7px solid;
+}
+
+#recipebox {
+    border-radius: 25px;    
+    width: 19%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 20px 25px 20px;
+    border: 3px solid rgb(92, 48, 13);
+}
+
+img {
+    display: block;
+    width: 300px;
+    height: 300px;
+    border-radius: 25px;
+    border-bottom: 3px solid rgb(0, 131, 39);
+    border-right: 3px solid rgb(0, 131, 39);
+    margin-left: auto;
+    margin-right: auto;
+    border-top: 3px solid rgb(34, 18, 4);
+    border-left: 3px solid rgb(34, 18, 4);
+}
+
+button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    width: 200px;
+    height: 35px;
+    border-radius: 10px;
+    font-size: 17px;
+    font-family: Copperplate Gothic;
+    font-weight: 500;
+    border-top: 0px;
+    border-left: 0px;
+    border-bottom: 4px solid rgba(223, 145, 0, 0.6);
+    border-right: 4px solid rgba(223, 145, 0, 0.6);
+}
+
+button:hover {
+    background-color: rgb(0, 85, 52);
+    color: goldenrod;
+}
+
+#bistekrecipe #btnBistek {
+    margin-bottom: 25px;
+}
+
+#fishrecipe #btnFish {
+    margin-bottom: 25px;
+}
+

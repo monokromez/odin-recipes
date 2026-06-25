@@ -4,13 +4,23 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Project: Recipes</title>
+        <link rel="stylesheet" href="stylesheets/style-index.css">
     </head>
     <body>
-         <h1>Odin Recipes</h1>
-         <ul>
-            <li><a href="recipes/chicken-curry.html">Chicken Curry</a></li>
-            <li><a href="recipes/beef-bistek.html">Beef Bistek</a></li>
-            <li><a href="recipes/fried-fish-fillet.html">Fried Fish Fillet</a></li>
-         </ul>
+        <h1>Odin Recipes</h1>
+        <div id="recipebox">
+            <div class="recipe" id="bistekrecipe">
+                <img src="assets/recipe-bistek.jpg" id="recipebistek">
+                <button id="btnBistek" onclick="window.location.href='recipes/beef-bistek.html'">Beef Bistek</button>
+            </div>
+            <div class="recipe" id="fishrecipe">
+                <img src="assets/recipe-fish-fillet.jpg" id="recipefish">
+                <button id="btnFish" onclick="window.location.href='recipes/fried-fish-fillet.html'">Fish Fillet</button>
+            </div>
+            <div class="recipe" id="chickenrecipe">
+                <img src="assets/recipe-chicken-curry.jpg" id="recipechicken">
+                <button id="btnChicken" onclick="window.location.href='recipes/chicken-curry.html'">Chicken Curry</button>
+            </div>
+        </div>
     </body>
 </html>
